@@ -1,3 +1,4 @@
+# vanilla option valuation with binomial tree (Cox-Ross-Rubinstein model)
 def binomial_vanilla(S0, K, T, r, sigma, N, option_type='call'):
     # S0 : initial price
     # K : strike
@@ -27,3 +28,18 @@ def binomial_vanilla(S0, K, T, r, sigma, N, option_type='call'):
                                                   (1 - p) * price_tree[i + 1, j]) # down movement
     
     return price_tree[0, 0] # option price today
+
+# validation against Black Scholes model
+def black_scholes(S0, K, T, r, sigma, option_type='call'):
+    d1 = (np.log(S0 / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
+    d2 = d1 - sigma * np.sqrt(T)
+    if option_type == 'call':
+        return S0 * norm.cdf(d1) - K * np.exp(-r * T) * norm.cdf(d2)
+    else:
+        return K * np.exp(-r * T) * norm.cdf(-d2) - S0 * norm.cdf(-d1)
+
+# example for validation : checking for convergence of prices or not
+S0, K, T, r, sigma, N = 100, 100, 1, 0.05, 0.2, 1000
+binomial_price = binomial_vanilla(S0, K, T, r, sigma, N)
+bs_price = black_scholes(S0, K, T, r, sigma)
+print(f"Binomial: {binomial_price:.4f}, Black-Scholes: {bs_price:.4f}")
