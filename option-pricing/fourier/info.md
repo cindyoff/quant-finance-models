@@ -1,8 +1,10 @@
 # Fast Fourier transform (FFT)
 
-Option pricing based on the academic paper written by Madan (1999) for the _Journal of Computational Finance_. 
+Option pricing (call), at-the-money (ATM), based on the academic paper written by Madan (1999) for the _Journal of Computational Finance_. 
 
-Paper link : ["Option Valuation Using the Fast Fourier
+
+
+<u> Paper link <\u>: ["Option Valuation Using the Fast Fourier
 Transform", Carr and Madan (1999)](https://www.researchgate.net/profile/Dilip-Madan-2/publication/2519144_Option_Valuation_Using_the_Fast_Fourier_Transform/links/55235a820cf2a2d9e146f0bf/Option-Valuation-Using-the-Fast-Fourier-Transform.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D)
 
 ## Some concepts explained
