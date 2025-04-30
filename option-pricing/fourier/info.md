@@ -2,7 +2,7 @@
 
 Algorithm for the option pricing of a call (vanilla), at-the-money (ATM), based on the academic paper written by Madan (1999) for the _Journal of Computational Finance_. 
 
-Call price :
+Call price, noted as $C(k_u)$ :
 
 $\[C(k_u) = \frac{\exp(-\alpha k_u)}{\pi} \sum_{j=1}^{N} e^{-i \frac{2\pi}{N} (j-1)(u-1)} e^{i b v_j} \psi(v_j) \frac{\eta}{3} \left( 3 + (-1)^j - \delta_{j-1} \right)\]$
 
