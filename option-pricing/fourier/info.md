@@ -13,7 +13,7 @@ Noted as $\delta_{ij}$, it is a two variable-function that allows only 2 outcome
 Source : [Kronecker delta function, Wolfram Math World](https://mathworld.wolfram.com/KroneckerDelta.html)
 
 ### Simpson's rule (weightings)
-This rule provides the estimate of the definite integral function. Used when the exact antiderivative function is difficult, near impossible, to determine analytically. Accuracy is enhanced by modeling the region under the curve as a series of parabolic elements, instead of the usual rectangle-shaped elements. 
+This rule provides the estimate of the definite integral function. Used when the exact antiderivative function is difficult, near impossible, to determine analytically. Accuracy is enhanced by modeling the region under the curve as a series of parabolic elements, instead of the usual simple-shaped elements (rectangles or trapezoids). 
 
 The basic formula to approximate the integral of $f(x)$ from $a$ to $b$ using the Simpson's rule is the following :
 
