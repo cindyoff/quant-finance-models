@@ -12,4 +12,8 @@ This rule provides the estimate of the definite integral function. Used when the
 
 The basic formula to approximate the integral of $f(x)$ from $a$ to $b$ using the Simpson's rule is the following :
 
-                              $\frac{b-a}{6}*[f(a) + 4\frac{a+b}{2}+f(b)]$ 
+$\frac{b-a}{6}*[f(a) + 4\frac{a+b}{2}+f(b)]$ 
+
+Source : [Simpson's rule](https://adamdjellouli.com/articles/numerical_methods/4_integration/simpsons_rule)
+
+### Dirac delta function
