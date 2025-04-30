@@ -5,4 +5,4 @@ Option pricing based on the academic paper written by Madan (1999) for the _Jour
 # Some concepts explained
 
 ## Kronecker delta function
-Noted as \delta_ij 
+Noted as $\delta_ij$
