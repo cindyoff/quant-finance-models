@@ -24,7 +24,7 @@ Source : [Simpson's rule, Djellouli](https://adamdjellouli.com/articles/numerica
 ### Delta sequence
 It refers to a sequence of strongly peaked functions for which we have the following result : 
 
-$\[\lim_{n \to \infty} \int_{-\infty}^{+\infty} \delta_n(x) f(x) \, dx\]$
+$\\lim_{n \to \infty} \int_{-\infty}^{+\infty} \delta_n(x) f(x) \, dx\$
 
 Source : [Wolfram Math World](https://mathworld.wolfram.com/DeltaSequence.html)
 
