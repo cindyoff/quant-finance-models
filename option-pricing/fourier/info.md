@@ -2,6 +2,10 @@
 
 Option pricing (call), at-the-money (ATM), based on the academic paper written by Madan (1999) for the _Journal of Computational Finance_. 
 
+Call price :
+
+$\[C(k_u) = \frac{\exp(-\alpha k_u)}{\pi} \sum_{j=1}^{N} e^{-i \frac{2\pi}{N} (j-1)(u-1)} e^{i b v_j} \psi(v_j) \frac{\eta}{3} \left( 3 + (-1)^j - \delta_{j-1} \right)\]$
+
 Paper link : ["Option Valuation Using the Fast Fourier
 Transform", Carr and Madan (1999)](https://www.researchgate.net/profile/Dilip-Madan-2/publication/2519144_Option_Valuation_Using_the_Fast_Fourier_Transform/links/55235a820cf2a2d9e146f0bf/Option-Valuation-Using-the-Fast-Fourier-Transform.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D)
 
