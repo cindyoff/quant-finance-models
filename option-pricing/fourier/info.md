@@ -10,7 +10,7 @@ Transform", Carr and Madan (1999)](https://www.researchgate.net/profile/Dilip-Ma
 ### Kronecker delta function
 Noted as $\delta_{ij}$, it is a two variable-function that allows only 2 outcomes : 1 and 0. The function gives 1 when the two variables are equal, and 0 if not. 
 
-Source : [Wolfram Math World](https://mathworld.wolfram.com/KroneckerDelta.html)
+Source : [Kronecker delta function, Wolfram Math World](https://mathworld.wolfram.com/KroneckerDelta.html)
 
 ### Simpson's rule (weightings)
 This rule provides the estimate of the definite integral function. Used when the exact antiderivative function is difficult, near impossible, to determine analytically. Accuracy is enhanced by modeling the region under the curve as a series of parabolic elements, instead of the usual rectangle-shaped elements. 
@@ -24,11 +24,11 @@ Source : [Simpson's rule, Djellouli](https://adamdjellouli.com/articles/numerica
 ### Delta sequence
 It refers to a sequence of strongly peaked functions for which we have the following result : 
 
-$\\lim_{n \to \infty} \int_{-\infty}^{+\infty} \delta_n(x) f(x) dx\$
+$\\lim_{n \to \infty} \int_{-\infty}^{+\infty} \delta_n(x) f(x) dx\=f(0)$
 
-Source : [Wolfram Math World](https://mathworld.wolfram.com/DeltaSequence.html)
+Source : [Delta sequence, Wolfram Math World](https://mathworld.wolfram.com/DeltaSequence.html)
 
 ### Dirac delta function
 
 
-Source : [Worlfram Math World](https://mathworld.wolfram.com/DeltaFunction.html)
+Source : [Dirac delta function, Worlfram Math World](https://mathworld.wolfram.com/DeltaFunction.html)
