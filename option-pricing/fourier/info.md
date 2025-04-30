@@ -29,8 +29,8 @@ $\\lim_{n \to \infty} \int_{-\infty}^{+\infty} \delta_n(x) f(x) dx\=f(0)$
 Source : [Delta sequence, Wolfram Math World](https://mathworld.wolfram.com/DeltaSequence.html)
 
 ### Dirac delta function
-It is viewed as the derivative of the Heaviside Step function. In other words we have : 
+Noted as $\delta(x)$, it is viewed as the derivative of the Heaviside Step function. In other words we have : 
 
-$\frac{d}{dx}[H(x)]$
+$\frac{d}{dx}[H(x)] = \delta(x)$
 
 Source : [Dirac delta function, Worlfram Math World](https://mathworld.wolfram.com/DeltaFunction.html)
