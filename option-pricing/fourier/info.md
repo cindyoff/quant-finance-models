@@ -8,11 +8,14 @@ $\[C(k_u) = \frac{\exp(-\alpha k_u)}{\pi} \sum_{j=1}^{N} e^{-i \frac{2\pi}{N} (j
 
 Where :
 - $i$ : complex number
-- $k_u$ : strike
+- $k_u = log(K_u)$ : logarithm of the strike
 - $N$ : number of iterations within the FFT algorithm
 - $j$ : summation index
 - $\eta$ : integration grid
 - $u$ : frequency within the Fourier space
+- $\delta_{j-1}$ : Kronecker delta function
+- $\psi(v_j)$ : Fourier transform of the modified payoff function
+  - With $\psi(v_j) = \frac{e^{-rT} \, \phi\left(v - i(\alpha + 1)\right)}{\alpha^2 + \alpha - v^2 + i(2\alpha + 1)v}$
 
 Paper link : ["Option Valuation Using the Fast Fourier
 Transform", Carr and Madan (1999)](https://www.researchgate.net/profile/Dilip-Madan-2/publication/2519144_Option_Valuation_Using_the_Fast_Fourier_Transform/links/55235a820cf2a2d9e146f0bf/Option-Valuation-Using-the-Fast-Fourier-Transform.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D)
