@@ -6,8 +6,8 @@ Call price, noted as $C(k_u)$ :
 
 $\[C(k_u) = \frac{\exp(-\alpha k_u)}{\pi} \sum_{j=1}^{N} e^{-i \frac{2\pi}{N} (j-1)(u-1)} e^{i b v_j} \psi(v_j) \frac{\eta}{3} \left( 3 + (-1)^j - \delta_{j-1} \right)\]$
 
-Where :
-- $i$ : complex number
+With :
+- $i$ : a complex number
 - $k_u = log(K_u)$ : logarithm of the strike
 - $N$ : number of iterations within the FFT algorithm
 - $j$ : summation index
