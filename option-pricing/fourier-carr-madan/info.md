@@ -4,7 +4,7 @@ Algorithm for the option pricing of a call (vanilla), at-the-money (ATM), based 
 
 Call price, noted as $C(k_u)$ :
 
-$\[C(k_u) = \frac{\exp(-\alpha k_u)}{\pi} \sum_{j=1}^{N} e^{-i \frac{2\pi}{N} (j-1)(u-1)} e^{i b v_j} \psi(v_j) \frac{\eta}{3} \left( 3 + (-1)^j - \delta_{j-1} \right)\]$
+$\[C(k_u) = \frac{\exp(-\alpha k_u)}{\pi} \sum_{j=1}^{N} e^{-i \frac{2\pi}{N} (j-1)(u-1)} e^{i b v_j} \psi(u_j) \frac{\eta}{3} \left( 3 + (-1)^j - \delta_{j-1} \right)\]$
 
 With :
 - $i$ : a complex number
