@@ -42,7 +42,7 @@ def fft_algo(cf, alpha, eta, r, T, N):
 S0 = 100
 r = 0.05
 sigma = 0.2
-T = 5
+T = 2
 eta = 0.25
 N = 4096
 alpha = 1.5
