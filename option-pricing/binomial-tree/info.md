@@ -2,6 +2,7 @@
 
 ## Resources
 - [University of Kent](https://www.kent.ac.uk/learning/documents/slas-documents/Binomial_models.pdf)
+- _Option and derivative products_ courses taught by Pr. Nazim Mahrour (2025, Université Paris Panthéon-Assas)
 
 ## Some concepts explained
 ### Binomial model
