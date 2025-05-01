@@ -1,8 +1,8 @@
 # Option valuation using a binomial tree (Cox-Ross-Rubinstein)
 
 ## Resources
-- [University of Kent](https://www.kent.ac.uk/learning/documents/slas-documents/Binomial_models.pdf)
 - _Option and derivative products_ courses taught by Pr. Nazim Mahrour (2025, Université Paris Panthéon-Assas)
+- [University of Kent](https://www.kent.ac.uk/learning/documents/slas-documents/Binomial_models.pdf)
 
 ## Some concepts explained
 ### Binomial model
