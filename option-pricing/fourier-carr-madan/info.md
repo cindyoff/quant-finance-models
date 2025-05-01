@@ -16,7 +16,7 @@ With :
 - $\delta_{j-1}$ : Kronecker delta function
 - $\psi(u_j)$ : Fourier transform of the modified payoff function
   - With $\psi(u_j) = \frac{e^{-rT} \ \phi\left(u - i(\alpha + 1)\right)}{\alpha^2 + \alpha - u^2 + i(2\alpha + 1)u}$
-  - And : $\phi(\left(u - i(\alpha + 1)\right)$ the characteristic function (from Black Scholes model)
+  - And : $\phi\left(u - i(\alpha + 1)\right$ the characteristic function (from Black Scholes model)
 
 Paper link : ["Option Valuation Using the Fast Fourier
 Transform", Carr and Madan (1999)](https://www.researchgate.net/profile/Dilip-Madan-2/publication/2519144_Option_Valuation_Using_the_Fast_Fourier_Transform/links/55235a820cf2a2d9e146f0bf/Option-Valuation-Using-the-Fast-Fourier-Transform.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D)
