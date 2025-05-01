@@ -14,6 +14,7 @@ With :
 - $\eta$ : integration grid
 - $u$ : frequency within the Fourier space
 - $\delta_{j-1}$ : Kronecker delta function
+- $\alpha$ : damping factor
 - $\psi(u_j)$ : Fourier transform of the modified payoff function
   - With $\psi(u_j) = \frac{e^{-rT} \ \phi\left(u - i(\alpha + 1)\right)}{\alpha^2 + \alpha - u^2 + i(2\alpha + 1)u}$
   - And : $\phi(\left(u - i(\alpha + 1)\right)$ the characteristic function (from Black Scholes model)
