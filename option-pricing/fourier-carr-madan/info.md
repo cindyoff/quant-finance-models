@@ -35,6 +35,8 @@ The basic formula to approximate the integral of $f(x)$ from $a$ to $b$ using th
 
 $\frac{b-a}{6}*[f(a) + 4\frac{a+b}{2}+f(b)]$ 
 
+A weight of 1 is given to the extreme values, whereas a weight of 4 is given to odd indices and 2 if even. 
+
 Source : [Simpson's rule, Djellouli](https://adamdjellouli.com/articles/numerical_methods/4_integration/simpsons_rule)
 
 ### Delta sequence
