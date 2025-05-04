@@ -36,7 +36,9 @@ This rule provides the estimate of the definite integral function. Used when the
 
 The basic formula to approximate the integral of $f(x)$ from $a$ to $b$ using the Simpson's rule is the following :
 
-$\frac{b-a}{6}*[f(a) + 4\frac{a+b}{2}+f(b)]$ 
+$$
+\frac{b-a}{6}*[f(a) + 4\frac{a+b}{2}+f(b)]
+$$
 
 A weight of 1 is given to the extreme values, whereas a weight of 4 is given to odd indices and 2 if even. 
 
@@ -45,13 +47,17 @@ Source : [Simpson's rule, Djellouli](https://adamdjellouli.com/articles/numerica
 ### Delta sequence
 It refers to a sequence of strongly peaked functions for which we have the following result : 
 
-$\\lim_{n \to \infty} \int_{-\infty}^{+\infty} \delta_n(x) f(x) dx\=f(0)$
+$$
+\\lim_{n \to \infty} \int_{-\infty}^{+\infty} \delta_n(x) f(x) dx\=f(0)
+$$
 
 Source : [Delta sequence, Wolfram Math World](https://mathworld.wolfram.com/DeltaSequence.html)
 
 ### Dirac delta function
 Noted as $\delta(x)$, it is viewed as the derivative of the Heaviside Step function. In other words we have : 
 
-$\frac{d}{dx}[H(x)] = \delta(x)$
+$$
+\frac{d}{dx}[H(x)] = \delta(x)
+$$
 
 Source : [Dirac delta function, Worlfram Math World](https://mathworld.wolfram.com/DeltaFunction.html)
