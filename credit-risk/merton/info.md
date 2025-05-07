@@ -56,3 +56,4 @@ Two types of short selling :
 An example of financial instrument being often exchanged in this case is CDS (credit default swap). It is a derivative contract that acts as a form of insurance against the credit risk default of a corporation or a government. 
 
 Source : [European Commission](https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/financial-markets/securities-markets/short-selling_en#:~:text=on%20short%20selling-,Definition,in%20order%20to%20deliver%20it.)
+
