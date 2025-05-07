@@ -51,7 +51,7 @@ $$
 We use the two following equations to summarise the scenarios : 
 
 $$
-E_T = max(A_T - D_T ;0)
+E_T = max(A_T - K ;0)
 $$
 
 $$
