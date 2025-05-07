@@ -40,6 +40,15 @@ Where $E_t$ is the equity of the company.
 1. The value of company's assets exceeds the one of liabilities ($A_T > K$). In this case, debt holders receive $K$ and the shareholder receives $E_T = A_T - D_T$
 2. The value of the company's assets is below the one of liabilities ($A_T < K$). In this situation, shareholders hand over control of the company to debt holders by exercising the limited liability option. Debt holders liquidate the company and share the generated revenues among themselves. 
 
+We use the two following equations to summarise the scenarios : 
+$$
+E_T = max(A_T - D_T ;0)
+$$
+
+$$
+K = min(A_T; K)
+$$
+
 ## Some concepts explained
 
 ### Modigliani-Miller theorem (M&M theorem)
