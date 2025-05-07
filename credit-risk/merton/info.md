@@ -12,7 +12,7 @@
 - The [Modigliani-Miller theorem](#modigliani-miller-theorem-mm-theorem) holds
 - No transaction costs and taxes, company assets are infinitely divisible and all market participants are perfectly informed
 - [Short selling](#short-selling) is possible
-- The liabilities of the company consist of one zero-coupon bond with the nominal value $K$ and the maturity time $T$
+- The liabilities of the company consist of one zero-coupon bond with face value $K$ and maturity time $T$
 - Company's assets are financed by equity
 - Debt structure and risk-free rate are constant over time
 - The riskiness of investment cannot be influenced by how close the company is to the default situation
@@ -26,6 +26,18 @@
 - Market is assumed to be frictionless, therefore the value of the company's asset is equal to the sum of the value of debt obligation and the value of equity at a date $t < T$
 
 Default occurs when the company is not able to pay debt holders at maturity $T$.
+
+### Scenarios at maturity
+From all the assumptions, we can write the following : 
+
+$$
+A_t = E_t + K
+$$
+
+Where $E_t$ is the equity of the company. 
+
+2 scenarios are possible at maturity $T$ : 
+1. 
 
 ## Some concepts explained
 
