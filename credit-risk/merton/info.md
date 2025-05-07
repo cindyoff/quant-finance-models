@@ -68,7 +68,7 @@ $$
 ## Some concepts explained
 
 ### Modigliani-Miller theorem (M&M theorem)
-Developed by economists Franco Modigliani and Merton Miller in 1958, this theorem is widely used in corporate finance. The main idea of the theory is that the capital structure of a company does not affect its overall value. Two versions of this theory were made : the first one in which the hypothesis of efficient markets was made and the final one excluding the possibility of efficient markets. Therefore, the second version of this theorem is closer to reality by admitting the existence of taxes, transaction and agency costs as well as asymmetric information.  
+Developed by economists Franco Modigliani and Merton Miller in 1958, this theorem is widely used in corporate finance. The main idea of the theory is that the capital structure of a company does not affect its overall value. Two versions of this theory were made : the first one in which the hypothesis of efficient markets was held and the final one excluding the possibility of efficient markets. Therefore, the second version of this theorem is closer to reality by admitting the existence of taxes, transaction and agency costs as well as asymmetric information.  
 
 Source : [Corporate Finance Institute (CFI)](https://corporatefinanceinstitute.com/resources/valuation/mm-theorem/)
 
