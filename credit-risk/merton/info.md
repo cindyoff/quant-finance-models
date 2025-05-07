@@ -9,7 +9,7 @@
 ## Merton model
 
 ### Assumptions
-- The [Modigliani-Miller theorem](### Modigliani-Miller theorem (M&M theorem)) holds
+- The [Modigliani-Miller theorem](###Modigliani-Miller-theorem (M&M theorem)) holds
 - 
 
 ## Some concepts explained
