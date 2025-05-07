@@ -41,6 +41,7 @@ Where $E_t$ is the equity of the company.
 2. The value of the company's assets is below the one of liabilities ($A_T < K$). In this situation, shareholders hand over control of the company to debt holders by exercising the limited liability option. Debt holders liquidate the company and share the generated revenues among themselves. 
 
 We use the two following equations to summarise the scenarios : 
+
 $$
 E_T = max(A_T - D_T ;0)
 $$
