@@ -50,6 +50,13 @@ $$
 K = min(A_T; K)
 $$
 
+### Credit risk default probability
+In the Merton's model, the default case happens when, at time maturity $T$, the value of the company's asset $A_T$ are below the face value of the debt $K$. We can compute the default probability via $PD$ : 
+
+$$ 
+PD = Prob(A_T < K)
+$$
+
 ## Some concepts explained
 
 ### Modigliani-Miller theorem (M&M theorem)
