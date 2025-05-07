@@ -7,7 +7,9 @@
 - [Hull, Nelken and White (2004)](https://www.researchgate.net/profile/John-Hull-6/publication/228294160_Merton's_Model_Credit_Risk_and_Volatility_Skews/links/00b7d5335d8db065b1000000/Mertons-Model-Credit-Risk-and-Volatility-Skews.pdf?origin=journalDetail&_tp=eyJwYWdlIjoiam91cm5hbERldGFpbCJ9)
 
 ## Merton model
-++++++
+
+### Assumptions
+++
 
 ## Some concepts explained
 
