@@ -14,16 +14,26 @@
 - [Short selling](#short-selling) is possible
 - The liabilities of the company consist of one zero-coupon bond with face value $K$ and maturity time $T$
 - Company's assets are financed by equity
-- Debt structure and risk-free rate are constant over time
+- Debt structure and risk-free rate ($r$) are constant over time
 - The riskiness of investment cannot be influenced by how close the company is to the default situation
 - A company may only be declared bankrupt at the end of the time period $T$ (maturity time of the zero-coupon bond)
 - Rates for renting and lending capital are the same
-- Asset value development is described by a geometric brownian motion (GBM)
 - Company cannot pay dividends or issue new debt until the maturity $T$
 - Company assets follow a lognormal distribution, therefore they cannot be negative
 - Absence of arbitrage in the market
 - No costs associated with bankruptcy
 - Market is assumed to be frictionless, therefore the value of the company's asset is equal to the sum of the value of debt obligation and the value of equity at a date $t < T$
+- Asset value development ($A_T$) is described by a geometric brownian motion (GBM)
+Here, $A_T$ follows a geometric brownian motion given by the following stochastic differential equation (SDE) :
+
+$$ 
+\frac{dA_t}{A_t} = rd_t + \sigma_AdW_t
+$$
+
+Where :
+- $W_t$ is a standard brownian motion under the risk-neutral measure
+- $r$ denotes the constant risk-free interest rate
+- $\sigma_A$ is the asset's return volatility (assumed to be constant)
 
 Default occurs when the company is not able to pay debt holders at maturity $T$.
 
