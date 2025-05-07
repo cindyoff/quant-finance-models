@@ -13,7 +13,7 @@
 - No transaction costs and taxes, company assets are infinitely divisible and all market participants are perfectly informed
 - [Short selling](#short-selling) is possible
 - The liabilities of the company consist of one zero-coupon bond with face value $K$ and maturity time $T$
-- Company's assets are financed by equity
+- Company's assets are financed by equity ($E_t$)
 - Debt structure and risk-free rate ($r$) are constant over time
 - The riskiness of investment cannot be influenced by how close the company is to the default situation
 - A company may only be declared bankrupt at the end of the time period $T$ (maturity time of the zero-coupon bond)
