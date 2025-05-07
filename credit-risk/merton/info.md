@@ -10,7 +10,22 @@
 
 ### Assumptions
 - The [Modigliani-Miller theorem](#modigliani-miller-theorem-mm-theorem) holds
-- 
+- No transaction costs and taxes, company assets are infinitely divisible and all market participants are perfectly informed
+- [Short selling](#short-selling) is possible
+- The liabilities of the company consist of one zero-coupon bond with the nominal value $K$ and the maturity time $T$
+- Company's assets are financed by equity
+- Debt structure and risk-free rate are constant over time
+- The riskiness of investment cannot be influenced by how close the company is to the default situation
+- A company may only be declared bankrupt at the end of the time period $T$ (maturity time of the zero-coupon bond)
+- Rates for renting and lending capital are the same
+- Asset value development is described by a geometric brownian motion (GBM)
+- Company cannot pay dividends or issue new debt until the maturity $T$
+- Company assets follow a lognormal distribution, therefore they cannot be negative
+- Absence of arbitrage in the market
+- No costs associated with bankruptcy
+- Market is assumed to be frictionless, therefore the value of the company's asset is equal to the sum of the value of debt obligation and the value of equity at a date $t < T$
+
+Default occurs when the company is not able to pay debt holders at maturity $T$.
 
 ## Some concepts explained
 
@@ -18,3 +33,13 @@
 Developed by economists Franco Modigliani and Merton Miller in 1958, this theorem is widely used in corporate finance. The main idea of the theory is that the capital structure of a company does not affect its overall value. Two versions of this theory were made : the first one in which the hypothesis of efficient markets was made and the final one excluding the possibility of efficient markets. Therefore, the second version of this theorem is closer to reality by admitting the existence of taxes, transaction and agency costs as well as asymmetric information.  
 
 Source : [M&M theorem, CFI](https://corporatefinanceinstitute.com/resources/valuation/mm-theorem/)
+
+### Short selling
+Short selling is the sale of a security the seller does not own at the time of entering into the agreement with the intention of buying it back at a later point in time in order to deliver it. 
+Two types of short selling : 
+- covered short selling : the seller has made arrangements to borrow the securities before the sale
+- naked short selling : the seller has not borrowed the securities when the short sale occurs
+
+An example of financial instrument being often exchanged in this case is CDS (credit default swap). It is a derivative contract that acts as a form of insurance against the credit risk default of a corporation or a government. 
+
+Source : [European Commission](https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/financial-markets/securities-markets/short-selling_en#:~:text=on%20short%20selling-,Definition,in%20order%20to%20deliver%20it.)
