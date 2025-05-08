@@ -45,7 +45,7 @@ A_t = E_t + K
 $$
 
 2 scenarios are possible at maturity $T$ : 
-1. The value of company's assets exceeds the one of liabilities ($A_T > K$). In this case, debt holders receive $K$ and the shareholder receives $E_T = A_T - D_T$
+1. The value of company's assets exceeds the one of liabilities ($A_T > K$). In this case, debt holders receive $K$ and the shareholder receives $E_T = A_T - K$
 2. The value of the company's assets is below the one of liabilities ($A_T < K$). In this situation, shareholders hand over control of the company to debt holders by exercising the limited liability option. Debt holders liquidate the company and share the generated revenues among themselves. 
 
 We use the two following equations to summarise the scenarios : 
