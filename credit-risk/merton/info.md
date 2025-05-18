@@ -27,7 +27,7 @@
 Here, $A_T$ follows a geometric brownian motion given by the following stochastic differential equation (SDE) :
 
 $$ 
-\frac{dA_t}{A_t} = rd_t + \sigma_AdW_t
+\frac{dA_t}{A_t} = rd_t + \sigma_AdW_t 
 $$
 
 Where :
