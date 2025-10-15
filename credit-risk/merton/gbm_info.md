@@ -2,6 +2,7 @@
 
 ## Resources
 - [Stojkoski, Sandev, Basnarkov, Kocarev and Metzler (2020)](https://www.mdpi.com/1099-4300/22/12/1432)
+- Wikipedia
 
 ## Introduction
 A geometric brownian motion (GBM) is a continuous-time stochastic process in which the logarithm of the randomly varying quantity of interest follows a brownian motion with drift, with the drift often written as $\mu$. 
@@ -12,6 +13,7 @@ The stochastic process is a non-ergodic regime if an observable's average does n
 The time-averaged growth rate is dependent on both the drift and randomness in the system, whereas the ensemble growth rate is only dependent on the drift. 
 
 # Heterogenous diffusion and turbulent diffusion
+A diffusion refers to the random, unpredictable movement of a process. For instace, a financial diffusion could refer to a stock price, changing its value depending on small bits of news and trader actions. 
 - Heterogeneous diffusion : the magnitude of the randomness depends on our current position. Therefore, a bigger value experiences bigger random shocks. 
 - Turbulent diffusion : random shocks are proportional to the price, when the price is high, variations can be very large and volatile, resembling a turbulent and chaotic system. 
 
