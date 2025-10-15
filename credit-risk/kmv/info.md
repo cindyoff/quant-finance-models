@@ -11,8 +11,6 @@ The model tries to overcome some flaws of the Merton's model. It was developed i
 # Merton's model flaws
 The first significant problem of Merton's model is that both the firm value and its volatility are usually unobserved. However, implicit estimates of those two measures can be given via prices of traded securities by the firm. As a consequence, we can use the prices of security traded securities as the value of the option (call) to be used in the model to estimate the firm's value. 
 
-+++
-
 # KMV explained
 ## Key concept
 The KMV model adds a step to compute the critical threshold when a firm is defaulting. This critical threshold is known as the "Default Point" (DPT). 
@@ -42,7 +40,7 @@ Concretely, the larger the DD, the smaller the probability of default (PD), thus
 
 ## Two ways of calculating DD
 ### Calculating absolute distance to default
-It is expressed as the distance between expected assets and DPT. It can be displayed as the sum of initial distance and the growth of that distance within the period $T$. In other words, it is written as follows : 
+Absolute distance to default, noted as $DD'$, is expressed as the distance between expected assets and DPT. It can be displayed as the sum of initial distance and the growth of that distance within the period $T$. In other words, it is written as follows : 
 
 $$
 DD' = ln(\frac{A_0}{DPT}) + (\mu_A - \frac{1}{2}\sigma_A^2)T
@@ -56,11 +54,9 @@ Where :
 - $T$ : time period
 Note that DPT replaces the nominal value $D$, which is the face value of the debt, found in Merton's model. 
 
-+++
-
 ### Calculating relative distance to default
+The relative distance to default, noted as $DD$, is computed through with the following equation : 
 
-+++++
-
-# Some concepts explained
-++++
+$$
+DD = \frac{ln(\frac{A_0}{DPT}) + (\mu_A - \frac{1}{2}\sigma_A^2)T}{\sigma_A \sqrt(T)}
+$$
