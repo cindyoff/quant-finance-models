@@ -9,7 +9,7 @@
 The model tries to overcome some flaws of the Merton's model. It was developed in 2002 by Moody's (previously known as Moody's Analytics).
 
 # Merton's model flaws
-The first significant problem of Merton's model is that both the firm value and its volatility are usually unobserved. However, implicit estimates of those two measures can be given via prices of traded securities by the firm. As a consequence, we can use the prices of security traded securities as the value of the option (call) to be used in the model to estimate the firm's value. 
+The first significant problem of Merton's model is that both the firm value and its volatility are usually unobserved. However, implicit estimates of those two measures can be given via prices of traded securities by the firm. As a consequence, we can use the prices of security traded securities as the value of the option (call) to be used in the model to estimate the firm's value.
 
 # KMV explained
 ## Key concept
