@@ -2,7 +2,6 @@
 
 ## Resources
 - [Stojkoski, Sandev, Basnarkov, Kocarev and Metzler (2020)](https://www.mdpi.com/1099-4300/22/12/1432)
-- 
 
 ## Introduction
 A geometric brownian motion (GBM) is a continuous-time stochastic process in which the logarithm of the randomly varying quantity of interest follows a brownian motion with drift, with the drift often written as $\mu$. 
