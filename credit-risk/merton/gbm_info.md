@@ -8,16 +8,16 @@
 A geometric brownian motion (GBM) is a continuous-time stochastic process in which the logarithm of the randomly varying quantity of interest follows a brownian motion with drift, with the drift often written as $\mu$. 
 
 ## Properties of a GBM
-# Non-ergodicity
+### Non-ergodicity
 The stochastic process is a non-ergodic regime if an observable's average does not equal to the time average (source : [Ergodic process, Wikipedia](https://en.wikipedia.org/wiki/Ergodic_process))
 The time-averaged growth rate is dependent on both the drift and randomness in the system, whereas the ensemble growth rate is only dependent on the drift. 
 
-# Heterogenous diffusion and turbulent diffusion
+### Heterogenous diffusion and turbulent diffusion
 A diffusion refers to the random, unpredictable movement of a process. For instace, a financial diffusion could refer to a stock price, changing its value depending on small bits of news and trader actions. 
 - Heterogeneous diffusion : the magnitude of the randomness depends on our current position. Therefore, a bigger value experiences bigger random shocks. 
 - Turbulent diffusion : random shocks are proportional to the price, when the price is high, variations can be very large and volatile, resembling a turbulent and chaotic system. 
 
-# Fat-tailed distributions and GBM
+### Fat-tailed distributions and GBM
 The GBM is not able to correctly reproduce assets with fat-tailed characteristics observed in reality. 
 Alternatives added to remediate this issue : 
 - local volatility
