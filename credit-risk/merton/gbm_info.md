@@ -12,7 +12,8 @@ The stochastic process is a non-ergodic regime if an observable's average does n
 The time-averaged growth rate is dependent on both the drift and randomness in the system, whereas the ensemble growth rate is only dependent on the drift. 
 
 # Heterogenous diffusion and turbulent diffusion
-++++
+- Heterogeneous diffusion : the magnitude of the randomness depends on our current position. Therefore, a bigger value experiences bigger random shocks. 
+- Turbulent diffusion : random shocks are proportional to the price, when the price is high, variations can be very large and volatile, resembling a turbulent and chaotic system. 
 
 # Fat-tailed distributions and GBM
 The GBM is not able to correctly reproduce assets with fat-tailed characteristics observed in reality. 
