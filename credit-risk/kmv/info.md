@@ -41,7 +41,13 @@ Where :
 Concretely, the larger the DD, the smaller the probability of default (PD), thus less chance the company will default. 
 
 ## Two ways of calculating DD
-+++
+### Calculating absolute distance to default
+
+++++
+
+### calculating relative distance to default
+
++++++
 
 # Some concepts explained
 ++++
