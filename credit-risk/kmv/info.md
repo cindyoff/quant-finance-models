@@ -42,10 +42,23 @@ Concretely, the larger the DD, the smaller the probability of default (PD), thus
 
 ## Two ways of calculating DD
 ### Calculating absolute distance to default
+It is expressed as the distance between expected assets and DPT. It can be displayed as the sum of initial distance and the growth of that distance within the period $T$. In other words, it is written as follows : 
 
-++++
+$$
+DD' = ln(\frac{A_0}{DPT}) + (\mu_A - \frac{1}{2}\sigma_A^2)T
+$$
 
-### calculating relative distance to default
+Where : 
+- $DPT$ : default point
+- $A_0$ : asset value
+- $\mu_A$ : expected rate of the return of the firm's asset
+- $\sigma_A$ : volatility of the asset
+- $T$ : time period
+Note that DPT replaces the nominal value $D$, which is the face value of the debt, found in Merton's model. 
+
++++
+
+### Calculating relative distance to default
 
 +++++
 
