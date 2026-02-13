@@ -27,3 +27,4 @@ Several methods to reduce the variance of the simulations exist :
 # References
 - [Pr. Bruno Bouchard (CREST)](https://www.ceremade.dauphine.fr/~bouchard/pdf/polymc.pdf)
 - [Mathematical Institute of Toulouse](https://www.math.univ-toulouse.fr/~agarivie/Telecom/agregMaths/reducvariance.pdf)
+- [Pr. Bernard Lapeyre (CERMICS)](https://cermics.enpc.fr/~bl/Halmstad/monte-carlo/lecture-2.pdf)
